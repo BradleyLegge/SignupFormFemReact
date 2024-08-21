@@ -29,7 +29,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    padding-top: 100px;
     margin: auto;
     width: 65%;
 }
@@ -150,10 +150,10 @@ button:hover{
 @media screen and (max-width: 1000px) {
 
     .main-container{
-        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 0;
         gap: 60px;
         width: 90%;
     }
