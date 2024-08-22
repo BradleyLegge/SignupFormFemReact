@@ -41,6 +41,10 @@ body{
     gap: 20px;
 }
 
+.left-side h1{
+    font-size: 42px;
+}
+
 .left-side h1, .left-side p{
     color: white;
 }
@@ -83,6 +87,7 @@ form{
 }
 
 input{
+    font-size: 16px;
     margin-top: 20px;
     padding: 20px;
     border: 1px solid var(--grayish-blue);
@@ -94,6 +99,7 @@ input:focus{
 }
 
 input::placeholder{
+    font-size: 16px;
     font-weight: 700;
 }
 
